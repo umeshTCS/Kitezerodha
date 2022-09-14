@@ -13,5 +13,6 @@ public void initilizeBrowser(){
 	driver.get("https://kite.zerodha.com/");
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+	System.out.println("umesh");
 }
 }
